@@ -14,6 +14,7 @@ Route::get('/actions', ActionsComponent::class)->name("ruta_actions");
 Route::get('/eventos', EventosComponent::class)->name("ruta_eventos");
 Route::get('/formularios', FormulariosComponent::class)->name("ruta_formularios");
 //https://github.com/livewire/livewire/discussions/7480
+/*
 \Livewire\Livewire::setUpdateRoute(function ($handle) {
     return Route::post('/pubic/livewire/update', $handle);
-});
+});*/
