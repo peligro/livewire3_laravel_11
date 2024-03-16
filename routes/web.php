@@ -12,8 +12,8 @@ use App\Livewire\PeliculasComponent;
 use Livewire\Volt\Volt;
 //https://github.com/livewire/livewire/discussions/7480
 \Livewire\Livewire::setUpdateRoute(function ($handle) {
-    return Route::post('/clientes/tamila/test/mvp/livewire_mvp/public/livewire/update', $handle);
-    //return Route::post('/public/livewire/update', $handle);
+    //return Route::post('/clientes/tamila/test/mvp/livewire_mvp/public/livewire/update', $handle);
+    return Route::post('/public/livewire/update', $handle);
 });
 
 Route::get('/', HomeComponent::class)->name("ruta_home");
