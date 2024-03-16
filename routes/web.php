@@ -27,4 +27,4 @@ Route::get('/peliculas', PeliculasComponent::class)->name("ruta_peliculas");
 
 
  
-Volt::route('/volt-ejemplo', 'voltejemplocomponent');
+Volt::route('/volt-ejemplo', 'voltejemplocomponent')->name("ruta_volt_ejemplo");

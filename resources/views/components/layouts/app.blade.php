@@ -54,6 +54,7 @@
       <a class="p-2 link-secondary" href="{{route('ruta_inline')}}" wire:navigate>Inline</a>
       <a class="p-2 link-secondary" href="{{route('ruta_actions')}}" wire:navigate>Actions</a>
       <a class="p-2 link-secondary" href="{{route('ruta_eventos')}}" >Eventos</a>
+      <a class="p-2 link-secondary" href="{{route('ruta_volt_ejemplo')}}" >Volt</a>
       <a class="p-2 link-secondary" href="{{route('ruta_formularios')}}" wire:navigate>Formularios</a>
       <a class="p-2 link-secondary" href="{{route('ruta_tematicas')}}" wire:navigate>Temáticas</a>
       <a class="p-2 link-secondary" href="{{route('ruta_peliculas')}}" wire:navigate>Películas</a>
