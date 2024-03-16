@@ -21,7 +21,7 @@ class EventosComponent extends Component
     }
     public function alert()
     {
-        $this->dispatch('swal', ['title'=>'título personalizado', 'icon'=>'error'] );
+        $this->dispatch('swal', ['title'=>'título personalizado', 'mensaje'=>'mensaje ñandú','icon'=>'error'] );
     }
     public function modal()
     {

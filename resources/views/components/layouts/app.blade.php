@@ -37,7 +37,7 @@
        
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="/" wire:navigate>
+        <a class="blog-header-logo text-dark" href="{{route('ruta_home')}}" wire:navigate>
             <img src="{{asset('img/logo.svg')}}" alt="" />
         </a>
       </div>
@@ -55,6 +55,8 @@
       <a class="p-2 link-secondary" href="{{route('ruta_actions')}}" wire:navigate>Actions</a>
       <a class="p-2 link-secondary" href="{{route('ruta_eventos')}}" >Eventos</a>
       <a class="p-2 link-secondary" href="{{route('ruta_formularios')}}" wire:navigate>Formularios</a>
+      <a class="p-2 link-secondary" href="{{route('ruta_tematicas')}}" wire:navigate>Temáticas</a>
+      <a class="p-2 link-secondary" href="{{route('ruta_peliculas')}}" wire:navigate>Películas</a>
     </nav>
   </div>
 </div>

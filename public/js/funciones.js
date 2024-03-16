@@ -16,9 +16,9 @@ document.addEventListener('livewire:init', () => {
     Livewire.on('swal', (event) => {
         Swal.fire({
             title: event[0].title,
-            text: 'Do you want to continue',
+            text: event[0].mensaje,
             icon: event[0].icon,
-            confirmButtonText: 'Cool'
+            confirmButtonText: 'OK'
           });
     });
     //modal
@@ -40,4 +40,5 @@ document.addEventListener('livewire:init', () => {
 
 
     });
+     
 });
